@@ -1,9 +1,9 @@
-﻿namespace CSharpFundamentals
+﻿namespace CSharpFundamentals;
+
+internal class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-        }
+        VariablesAndConstants.VariablesAndConstantsProgram();
     }
 }
