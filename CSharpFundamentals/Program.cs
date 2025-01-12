@@ -7,5 +7,7 @@ internal class Program
         VariablesAndConstants.VariablesAndConstantsProgram();
         TypeConversion.TypeConversionProgram();
         Operators.OperatorsProgram();
+
+        Class.ClassProgram();
     }
 }
