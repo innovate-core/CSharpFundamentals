@@ -8,7 +8,8 @@ internal class Program
         TypeConversion.TypeConversionProgram();
         Operators.OperatorsProgram();
 
-        Class.ClassProgram();
+        Classes.ClassProgram();
         Arrays.ArraysProgram();
+        Strings.StringsProgram();
     }
 }

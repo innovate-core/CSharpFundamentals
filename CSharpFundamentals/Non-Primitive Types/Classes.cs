@@ -1,6 +1,6 @@
 ﻿namespace CSharpFundamentals;
 
-public static class Class
+public static class Classes
 {
     public class Person
     {
