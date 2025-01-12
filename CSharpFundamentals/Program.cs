@@ -9,5 +9,6 @@ internal class Program
         Operators.OperatorsProgram();
 
         Class.ClassProgram();
+        Arrays.ArraysProgram();
     }
 }
