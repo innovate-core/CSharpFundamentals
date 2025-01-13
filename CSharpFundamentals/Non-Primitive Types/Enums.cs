@@ -14,12 +14,12 @@ public class Enums
         Console.WriteLine("Start -> Enums");
 
         var method = ShippingMethod.Express;
-        Console.WriteLine((int)method);
+        Console.WriteLine((int)method); //Output: 3
 
         var methodId = 3;
-        Console.WriteLine((ShippingMethod)methodId);
+        Console.WriteLine((ShippingMethod)methodId); //Output: Express
 
-        Console.WriteLine(method.ToString());
+        Console.WriteLine(method.ToString());  //Output: Express
 
         var methodName = "Express";
 

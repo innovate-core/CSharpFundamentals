@@ -6,34 +6,34 @@ public class TypeConversion
     {
         Console.WriteLine("Start -> Type Conversion");
 
-        //byte b = 1;
-        //int i = b;
-        //Console.WriteLine(i);
+        byte b = 1;
+        int i = b;
+        Console.WriteLine(i); //Output: 1
 
-        //int i = 1000;
-        //byte b = (byte)i;
-        //Console.WriteLine(b);
+        int i1 = 1000;
+        byte b1 = (byte)i1;
+        Console.WriteLine(b1);//Output: 232
 
-        //var number = "1234";
-        //int i = Convert.ToInt32(number);
-        //Console.WriteLine(i);
+        var number = "1234";
+        int i2 = Convert.ToInt32(number);
+        Console.WriteLine(i2); //Output: 1234
 
-        //try
-        //{
-        //    var number = "1234";
-        //    byte b = Convert.ToByte(number);
-        //    Console.WriteLine(b);
-        //}
-        //catch (Exception)
-        //{
-        //    Console.WriteLine("The number could not be converted to a byte.");
-        //}
+        try
+        {
+            var number1 = "1234";
+            byte b2 = Convert.ToByte(number1); //Error
+            Console.WriteLine(b2);
+        }
+        catch (Exception)
+        {
+            Console.WriteLine("The number could not be converted to a byte."); //Output: The number could not be converted to a byte.
+        }
 
         try
         {
             var str = "true";
-            bool b  = Convert.ToBoolean(str);
-            Console.WriteLine(b);
+            bool b3  = Convert.ToBoolean(str);
+            Console.WriteLine(b3); //Output: True
         }
         catch (Exception)
         {

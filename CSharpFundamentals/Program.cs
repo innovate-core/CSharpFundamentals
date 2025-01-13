@@ -12,5 +12,6 @@ internal class Program
         Arrays.ArraysProgram();
         Strings.StringsProgram();
         Enums.EnumsProgram();
+        ReferenceTypesAndValueTypes.ReferenceTypesAndValueTypesProgram();
     }
 }

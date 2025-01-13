@@ -13,21 +13,21 @@ public class Strings
 
         var myFullName = string.Format("My name is {0} {1}", firstName, lastname);
 
-        Console.WriteLine(myFullName);
+        Console.WriteLine(myFullName); // Output: My name is Mykola Maksymiv
 
         var names = new string[3] { "Jack", "John", "Mary" };
 
         var formattedNames = string.Join(", ", names);
 
-        Console.WriteLine(formattedNames);
+        Console.WriteLine(formattedNames); //Output: Jack, John, Mary
 
         var text = "Hi Mykola\nLook into the following paths \nc:\\forler1\\folder2";
         var text1 = @"Hi Mykola 
                          Look into the following paths
                          c:\forler1\folder2";
 
-        Console.WriteLine(text);
-        Console.WriteLine(text1);
+        Console.WriteLine(text);//Output: Hi Mykola Look into the following paths c:\\forler1\\folder2
+        Console.WriteLine(text1); //Output: Hi Mykola            Look into the following paths       c:\\forler1\\folder2"
 
         Console.WriteLine("Finish -> Strings");
     }

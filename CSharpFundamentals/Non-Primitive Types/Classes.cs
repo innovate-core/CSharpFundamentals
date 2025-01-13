@@ -29,12 +29,12 @@ public static class Classes
 
         person.FirstName = "Mykola";
         person.LastName = "Maskymiv";
-        person.Introduce();
+        person.Introduce(); //Output: My name is Mykola Maksymiv
 
         var calcularor = new Calcularor();
 
         var result = calcularor.Add(1, 2);
-        Console.WriteLine(result);
+        Console.WriteLine(result); //Output: 3
 
         Console.WriteLine("Finish -> Class");
     }
