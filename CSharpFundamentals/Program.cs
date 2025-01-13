@@ -11,5 +11,6 @@ internal class Program
         Classes.ClassProgram();
         Arrays.ArraysProgram();
         Strings.StringsProgram();
+        Enums.EnumsProgram();
     }
 }
