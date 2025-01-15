@@ -18,5 +18,6 @@ internal class Program
 
         //Control Flow
         IfElseAndSwitchCase.IfElseAndSwitchCaseProgram();
+        ForLoops.ForLoopsProgram();
     }
 }
