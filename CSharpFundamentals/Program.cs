@@ -20,5 +20,6 @@ internal class Program
         IfElseAndSwitchCase.IfElseAndSwitchCaseProgram();
         ForLoops.ForLoopsProgram();
         ForeachLoops.ForeachLoopsProgram();
+        WhileLoops.WhileLoopsProgram();
     }
 }
