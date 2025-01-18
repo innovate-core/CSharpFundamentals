@@ -1,4 +1,6 @@
-﻿namespace CSharpFundamentals;
+﻿using CSharpFundamentals.Dates;
+
+namespace CSharpFundamentals;
 
 internal class Program
 {
@@ -28,6 +30,9 @@ internal class Program
         //Arrays and Lists
         //CSharpFundamentals.Arrays_and_Lists.Arrays.ArraysProgram();
         //Lists.ListsProgram();
-        Exercises2.ExercisesProgram();
+        //Exercises2.ExercisesProgram();
+
+        //Working with Dates
+        DateTimes.DateTimeProgram();
     }
 }
