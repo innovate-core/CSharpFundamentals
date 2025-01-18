@@ -33,6 +33,7 @@ internal class Program
         //Exercises2.ExercisesProgram();
 
         //Working with Dates
-        DateTimes.DateTimeProgram();
+        //DateTimes.DateTimeProgram();
+        DateSpans.DateSpansProgram();
     }
 }
