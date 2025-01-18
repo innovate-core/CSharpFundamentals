@@ -26,6 +26,7 @@ internal class Program
         //Exercises.ExercisesProgram();
 
         //Arrays and Lists
-        CSharpFundamentals.Arrays_and_Lists.Arrays.ArraysProgram();
+        //CSharpFundamentals.Arrays_and_Lists.Arrays.ArraysProgram();
+        Lists.ListsProgram();
     }
 }
