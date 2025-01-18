@@ -21,5 +21,6 @@ internal class Program
         ForLoops.ForLoopsProgram();
         ForeachLoops.ForeachLoopsProgram();
         WhileLoops.WhileLoopsProgram();
+        RandomClass.RandomClassProgram();
     }
 }
