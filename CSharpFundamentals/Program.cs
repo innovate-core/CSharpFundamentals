@@ -35,5 +35,6 @@ internal class Program
         //Working with Dates
         //DateTimes.DateTimeProgram();
         DateSpans.DateSpansProgram();
+        CSharpFundamentals.Text.Strings.StringsProgram();
     }
 }
