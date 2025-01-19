@@ -35,7 +35,7 @@ public class Strings
         Console.WriteLine(age); //Output: 25
 
         float price = 29.95f;
-        Console.WriteLine(price.ToString("C0"));
+        Console.WriteLine(price.ToString("C0")); //Output: $30
 
 
         Console.WriteLine("Finish -> Strings");

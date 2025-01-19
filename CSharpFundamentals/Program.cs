@@ -1,4 +1,5 @@
 ﻿using CSharpFundamentals.Dates;
+using CSharpFundamentals.Text;
 
 namespace CSharpFundamentals;
 
@@ -34,7 +35,8 @@ internal class Program
 
         //Working with Dates
         //DateTimes.DateTimeProgram();
-        DateSpans.DateSpansProgram();
-        CSharpFundamentals.Text.Strings.StringsProgram();
+        // DateSpans.DateSpansProgram();
+        //CSharpFundamentals.Text.Strings.StringsProgram();
+        SummarisingText.SummarisingTextProgram();
     }
 }
