@@ -1,5 +1,6 @@
 ﻿using CSharpFundamentals.Dates;
 using CSharpFundamentals.Text;
+using System.Text;
 
 namespace CSharpFundamentals;
 
@@ -37,6 +38,7 @@ internal class Program
         //DateTimes.DateTimeProgram();
         // DateSpans.DateSpansProgram();
         //CSharpFundamentals.Text.Strings.StringsProgram();
-        SummarisingText.SummarisingTextProgram();
+        //SummarisingText.SummarisingTextProgram();
+        StringBuilders.StringBuildersProgram();
     }
 }
