@@ -39,6 +39,7 @@ internal class Program
         // DateSpans.DateSpansProgram();
         //CSharpFundamentals.Text.Strings.StringsProgram();
         //SummarisingText.SummarisingTextProgram();
-        StringBuilders.StringBuildersProgram();
+        //StringBuilders.StringBuildersProgram();
+        Exercises3.ExercisesProgram();
     }
 }
