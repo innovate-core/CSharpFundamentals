@@ -46,5 +46,6 @@ internal class Program
         //FileAndFileInfo.FileAndFileInfoProgram();
         //DirectoryAndDirectoryInfo.DirectoryAndDirectoryInfoProgram();
         //Paths.PathProgram();
+        //Exercises4.Exercises4Program();
     }
 }
