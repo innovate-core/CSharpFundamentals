@@ -1,8 +1,4 @@
-﻿using CSharpFundamentals.Dates;
-using CSharpFundamentals.Text;
-using System.Text;
-
-namespace CSharpFundamentals;
+﻿namespace CSharpFundamentals;
 
 internal class Program
 {
@@ -37,10 +33,17 @@ internal class Program
         //Working with Dates
         //DateTimes.DateTimeProgram();
         // DateSpans.DateSpansProgram();
+
+        //Working with Text
         //CSharpFundamentals.Text.Strings.StringsProgram();
         //SummarisingText.SummarisingTextProgram();
         //StringBuilders.StringBuildersProgram();
         //Exercises3.ExercisesProgram();
-        ProceduralProgramming.ProceduralProgrammingProgram();
+
+        //ProceduralProgramming.ProceduralProgrammingProgram();
+
+        //Working with Files
+        //FileAndFileInfo.FileAndFileInfoProgram();
+        //DirectoryAndDirectoryInfo.DirectoryAndDirectoryInfoProgram();
     }
 }
