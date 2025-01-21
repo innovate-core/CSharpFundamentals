@@ -40,6 +40,7 @@ internal class Program
         //CSharpFundamentals.Text.Strings.StringsProgram();
         //SummarisingText.SummarisingTextProgram();
         //StringBuilders.StringBuildersProgram();
-        Exercises3.ExercisesProgram();
+        //Exercises3.ExercisesProgram();
+        ProceduralProgramming.ProceduralProgrammingProgram();
     }
 }
