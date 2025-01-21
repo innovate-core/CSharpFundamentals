@@ -45,5 +45,6 @@ internal class Program
         //Working with Files
         //FileAndFileInfo.FileAndFileInfoProgram();
         //DirectoryAndDirectoryInfo.DirectoryAndDirectoryInfoProgram();
+        //Paths.PathProgram();
     }
 }
