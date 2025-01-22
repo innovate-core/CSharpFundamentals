@@ -1,13 +1,117 @@
-﻿
-using System.Globalization;
+﻿using System.Globalization;
+using System.Text;
 
-namespace CSharpFundamentals;
+namespace CSharpFundamentals.Sections;
 
-public class Exercises3
+/// <summary>
+/// Working with Text
+/// </summary>
+public static class Section6
 {
-    public static void ExercisesProgram()
+    public static void Run()
     {
-        Console.WriteLine("Start -> Exercises 3");
+        Strings();
+        SummarisingText();
+        StringBuilders();
+    }
+
+    private static void Strings()
+    {
+        Console.WriteLine("Start -> Strings");
+
+        var fullName = "Mykola Maksymiv ";
+
+        Console.WriteLine("Trim: '{0}'", fullName.Trim()); //Output: Trim: Mykola Maksymiv
+        Console.WriteLine("ToUpper: '{0}'", fullName.Trim().ToUpper()); //Output: ToUpper: MYKOLA MAKSYMIV
+
+        var intex = fullName.IndexOf(' ');
+        var firstName = fullName.Substring(0, intex);
+        var lastName = fullName.Substring(intex + 1);
+
+        Console.WriteLine("FirstName: " + firstName); //Output: FirstName: Mykola
+        Console.WriteLine("LastName: " + lastName); //Output: LastName: Maksymiv
+
+        var names = fullName.Split(' ');
+        Console.WriteLine("FirstName: " + names[0]); //Output: FirstName: Mykola
+        Console.WriteLine("LastName: " + names[1]); //Output: LastName: Maksymiv
+
+        Console.WriteLine(fullName.Replace("Mykola", "Kolya")); //Output: Kolya Maksymiv
+
+        if (String.IsNullOrEmpty(" ".Trim()))
+            Console.WriteLine("Invalid"); //Output: Invalid
+
+        if (String.IsNullOrWhiteSpace(" "))
+            Console.WriteLine("Invalid"); //Output: Invalid
+
+        var str = "25";
+        var age = Convert.ToByte(str);
+        Console.WriteLine(age); //Output: 25
+
+        float price = 29.95f;
+        Console.WriteLine(price.ToString("C0")); //Output: $30
+
+
+        Console.WriteLine("Finish -> Strings");
+    }
+
+    private static void SummarisingText()
+    {
+        Console.WriteLine("Start -> Summarising Text");
+
+        var sentence = "This is going to be a really really really really really long text.";
+        var summary = SummerizeText(sentence, 25);
+        Console.WriteLine(summary); //Output: This is going to be a really...
+
+        Console.WriteLine("Finish -> Summarising Text");
+    }
+
+    private static string SummerizeText(string text, int maxLength = 20)
+    {
+        if (text.Length < maxLength)
+            return text;
+
+        var words = text.Split(' ');
+        var totalCharacters = 0;
+        var summaryWords = new List<string>();
+
+        foreach (var word in words)
+        {
+            summaryWords.Add(word);
+
+            totalCharacters += word.Length + 1;
+            if (totalCharacters > maxLength)
+                break;
+        }
+
+        return String.Join(" ", summaryWords) + "..."; ;
+    }
+
+    private static void StringBuilders()
+    {
+        Console.WriteLine("Start -> String Builder");
+
+        var builder = new StringBuilder("Hello World");
+        builder.Append('-', 10)
+               .AppendLine()
+               .Append("Header")
+               .AppendLine()
+               .Append('-', 10)
+               .Replace('-', '+');
+
+        builder.Remove(0, 10);
+
+        builder.Insert(0, new string('-', 10));
+
+        Console.WriteLine(builder);
+
+        Console.WriteLine("First Char: " + builder[0]); //Output: First Char: -
+
+        Console.WriteLine("Finish -> String Builder");
+    }
+
+    public static void Exercises()
+    {
+        Console.WriteLine("Start -> Exercises");
 
         Task1();
         Task2();
@@ -15,7 +119,7 @@ public class Exercises3
         Task4();
         Task5();
 
-        Console.WriteLine("Finish -> Exercises 3");
+        Console.WriteLine("Finish -> Exercises");
     }
 
     /// <summary>

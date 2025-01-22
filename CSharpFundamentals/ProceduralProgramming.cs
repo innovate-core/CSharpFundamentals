@@ -2,7 +2,7 @@
 
 public class ProceduralProgramming
 {
-    public static void ProceduralProgrammingProgram()
+    public static void Run()
     {
         Console.WriteLine("Start -> Procedural Programming");
 

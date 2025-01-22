@@ -1,51 +1,29 @@
-﻿namespace CSharpFundamentals;
+﻿using CSharpFundamentals.Sections;
+
+namespace CSharpFundamentals;
 
 internal class Program
 {
     static void Main(string[] args)
     {
-        //Primitive Types and Expressions
-        //VariablesAndConstants.VariablesAndConstantsProgram();
-        //TypeConversion.TypeConversionProgram();
-        //Operators.OperatorsProgram();
+        Section1.Run();
 
-        //Non-Primitive Types
-        //Classes.ClassProgram();
-        //Arrays.ArraysProgram();
-        //Strings.StringsProgram();
-        //Enums.EnumsProgram();
-        //ReferenceTypesAndValueTypes.ReferenceTypesAndValueTypesProgram();
+        Section2.Run();
 
-        //Control Flow
-        //IfElseAndSwitchCase.IfElseAndSwitchCaseProgram();
-        //ForLoops.ForLoopsProgram();
-        //ForeachLoops.ForeachLoopsProgram();
-        //WhileLoops.WhileLoopsProgram();
-        //RandomClass.RandomClassProgram();
+        Section3.Run();
+        Section3.Exercises();
 
-        //Exercises.ExercisesProgram();
+        Section4.Run();
+        Section4.Exercises();
 
-        //Arrays and Lists
-        //CSharpFundamentals.Arrays_and_Lists.Arrays.ArraysProgram();
-        //Lists.ListsProgram();
-        //Exercises2.ExercisesProgram();
+        Section5.Run();
 
-        //Working with Dates
-        //DateTimes.DateTimeProgram();
-        // DateSpans.DateSpansProgram();
+        Section6.Run();
+        Section6.Exercises();
 
-        //Working with Text
-        //CSharpFundamentals.Text.Strings.StringsProgram();
-        //SummarisingText.SummarisingTextProgram();
-        //StringBuilders.StringBuildersProgram();
-        //Exercises3.ExercisesProgram();
+        ProceduralProgramming.Run();
 
-        //ProceduralProgramming.ProceduralProgrammingProgram();
-
-        //Working with Files
-        //FileAndFileInfo.FileAndFileInfoProgram();
-        //DirectoryAndDirectoryInfo.DirectoryAndDirectoryInfoProgram();
-        //Paths.PathProgram();
-        //Exercises4.Exercises4Program();
+        Section7.Run();
+        Section7.Exercises();
     }
 }
